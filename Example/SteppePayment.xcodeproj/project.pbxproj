@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9000C8DB8856A746D555ABEF /* Pods-SteppePayment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppePayment_Example.release.xcconfig"; path = "Target Support Files/Pods-SteppePayment_Example/Pods-SteppePayment_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A5035095B20CE708A5131CD /* SteppePayment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SteppePayment.podspec; path = ../SteppePayment.podspec; sourceTree = "<group>"; };
+		9A5035095B20CE708A5131CD /* SteppePayment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SteppePayment.podspec; path = ../SteppePayment.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ECF7B1E419A8648B33B391B /* Pods_SteppePayment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteppePayment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90A89FF4BABAA8DE2326F51 /* Pods-SteppePayment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppePayment_Tests.release.xcconfig"; path = "Target Support Files/Pods-SteppePayment_Tests/Pods-SteppePayment_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E70B3FE6F2C165D31CA104A8 /* Pods-SteppePayment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppePayment_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SteppePayment_Tests/Pods-SteppePayment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F0BE35D5C5257DC8D10FCD4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FDB84BF006A8CD08CEE6B233 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F0BE35D5C5257DC8D10FCD4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FDB84BF006A8CD08CEE6B233 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				E70B3FE6F2C165D31CA104A8 /* Pods-SteppePayment_Tests.debug.xcconfig */,
 				B90A89FF4BABAA8DE2326F51 /* Pods-SteppePayment_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,10 +270,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SteppePayment_Example/Pods-SteppePayment_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SteppePayment/SteppePayment.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SteppePayment.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.9.1)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SteppePayment (0.1.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - SteppePayment (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SteppePayment:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SteppePayment: 589ef1c44a8ff9c1b53dbf914d227472da1a742e
+
+PODFILE CHECKSUM: c6e5b8ae8fa53cfa9737f419682efad225be6dc7
+
+COCOAPODS: 1.11.2

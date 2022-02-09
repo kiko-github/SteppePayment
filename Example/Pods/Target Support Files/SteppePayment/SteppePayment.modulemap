@@ -1,0 +1,6 @@
+framework module SteppePayment {
+  umbrella header "SteppePayment-umbrella.h"
+
+  export *
+  module * { export * }
+}

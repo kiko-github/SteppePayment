@@ -1,0 +1,27 @@
+{
+  "name": "SteppePayment",
+  "version": "0.1.0",
+  "summary": "A short description of SteppePayment.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/53253489/SteppePayment",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "53253489": "tugsuganbaatar@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/53253489/SteppePayment.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SteppePayment/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
+}

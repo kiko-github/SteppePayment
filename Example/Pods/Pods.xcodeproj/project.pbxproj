@@ -1,0 +1,1400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E6DD9E0EF79BA54B058B29B382D402 /* SteppePayment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F60D38D4C4D6ECC1BB91375F1A8D5F /* SteppePayment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05996A5354CE5E1C53ECA7B7530E12A3 /* Pods-SteppePayment_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3168277A9954DD3A4211382F128CFFA /* Pods-SteppePayment_Tests-dummy.m */; };
+		101C2E37499C8EAF36FDDBDF637DD228 /* OptionCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 90551C01044710F4C5751E551324D6CC /* OptionCell.xib */; };
+		119B37D7E7D3A59C6685FC0EFEE881CE /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F9AE0995FF650A5B04532C3A01C497 /* TaskDelegate.swift */; };
+		1A11B675351F78D381162637A2136E6E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0A3C2FC3FB03C3142A701EC5711C0A /* BaseViewModel.swift */; };
+		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 591070C0C84C435AFFAA660A9C187FEE /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2119BBBDD76C9B182007C9E8D3BD8DDA /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6D0209F890D4746D26C8126F21C41D /* Timeline.swift */; };
+		24CC280E501967AA12C945A11E8BA2CF /* SteppePayment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68525B1FCBF78B7A05770B1AB022A2B7 /* SteppePayment-dummy.m */; };
+		253D0E3B3A48ED9FB8832A08C4E30536 /* OptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA81B4344CC640884482A8D1C4E3A0 /* OptionVC.swift */; };
+		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00D371A6F7A55FCD9D786F4F1B4992 /* SwiftSupport.swift */; };
+		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BF031862969CB64FA812A8FB99A454 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C23F68E19D6EC77382781A7B0576069 /* UIImage+Snapshot.m */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F657F3A0ED8FC5E64F171962718F2A /* FBSnapshotTestCasePlatform.m */; };
+		358669B23FAFAAE20AD1F5E6C3408ED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BEF0E85890623F3F94D85674AFB993 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3BFA3BC84D4DBDE54DBF6680FEA9D4C6 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A7E233E1B70049E6B59487D5D78D2F /* ConnectionManager.swift */; };
+		3DE8AA12C52787A0BA570717BB27AAB0 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961626ECC44B3E6F754127857FE02CDB /* ServerTrustPolicy.swift */; };
+		42A2BDAC8404843534AEFAF223E53F00 /* ConnectionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40E957EA07387746C057777697C074 /* ConnectionFactory.swift */; };
+		43C3C17BFDFD71F45C5A7AFB0C0BEF45 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04415675B7BED58BA65B0C53626719 /* ResponseSerialization.swift */; };
+		4BC10BB7E46B5587F6E625E1BDEF6F14 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB2FFF7285549066B395B8F6AC5843 /* BaseResponse.swift */; };
+		4C301CCA81AAFB4453B6B827F846E0AC /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8234607744524367E5FC616A4B4D87 /* Validation.swift */; };
+		537D7452E6C8C82D9C1908EA29706E35 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECE94D3F18685DFE85B7C816A06046 /* Notifications.swift */; };
+		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 603B8E2C2DD39BC0FBBBE1AA5863D73E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAC2B0AE7180CF8E4A2203145BFF9D1 /* FBSnapshotTestCase-dummy.m */; };
+		5CECD168465CF59B489253695D3FB51F /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C008FD0B7F05CF1484DA7929770F47F /* NetworkReachabilityManager.swift */; };
+		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 356F43A62E9E21D0519DBB4A4D17A3CD /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAC58B518707F93678273618609AF36 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6CBDCD5F4CC3EC09659AFFBC8ACD819E /* Pods-SteppePayment_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D61B86ACE5C978F3907E48EACD7B6E /* Pods-SteppePayment_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D0464BDCD6CE52FE613303A5558DE30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		6DF154F51210D4C446AA021F2DBA34A4 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA91009C9F80F7FA928E40FBAE4AC7A /* MultipartFormData.swift */; };
+		70EA6F068498CEC1B273D6BB1E74EB4E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8900AF69988C3544D0ABBB00B02186 /* Alamofire.swift */; };
+		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B24CAE615B58BD31E6A5D9628AB2FC /* UIApplication+StrictKeyWindow.m */; };
+		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FA3CA2A69C78B6F69F14C127E3BF27 /* FBSnapshotTestCase.m */; };
+		8023EECE8437F0311A065A9C2F420E2E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BADA2561CA8706D68A81F6121ED8E1 /* SessionManager.swift */; };
+		8497F3D5D6E6805D19832CA8997EEF40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		85379CCF081FC9C36F082E71D2DF4D2F /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B82C002A48BEF09E9B39B1B4F8C3E /* SessionDelegate.swift */; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = F72680CC5FE5846F89190243179932BB /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		90E42B43904F2F22CA3A8BBD0155D9A2 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55064E1F45841D1DDA58F81345A69EFE /* AFError.swift */; };
+		9146510540C8DAF109CC4BCCB0CA74A9 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B701CE0D392603F04CD4B922165E88D /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BCBBFE03318F5DD172F9E1F3100F67B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8733DE12E0CE963385E9F38CC73F82 /* Response.swift */; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		A21F602FF1746FB516C87A271C503642 /* OptionListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46884472AC7AC6ABD6F3CABB65DF3E57 /* OptionListResponse.swift */; };
+		A470A331A06E39427AC4CAF39EB062BE /* OptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3AE13FA62095A9E20F675E13236F00 /* OptionCell.swift */; };
+		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E26A37701246B9BA73CFE20FD041E3 /* UIImage+Compare.m */; };
+		B56DF99F0AD9505020B893770B07B065 /* BaseCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D92C3A0A4AE503C211AD2C31C33285 /* BaseCollectionVC.swift */; };
+		C27C72B2D755F3A7B2D97089CA75146F /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E237D8C73A18679BC56E94D8B8A11812 /* Alamofire-dummy.m */; };
+		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5194900AEC9AAC779217A3B4659034 /* FBSnapshotTestController.m */; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = EB61B32ED74B1235ADE05B5866729F09 /* UIImage+Diff.m */; };
+		CECE2F54A849F5149511F0B8F788B776 /* Pods-SteppePayment_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C07B75427A82A1CBBBA4D010A6FD3F95 /* Pods-SteppePayment_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D025203B333B07E10427C1AC76D438A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		D46CB5AF7BE345C5D27ABF9DCF692881 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B64C98053EAD427DE397A4FA8A0FC /* Result.swift */; };
+		D593E5BEB4221FF272DBF69E51945319 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB079B44FB7CE594EB9573D5EEF22F /* Request.swift */; };
+		D912E19219BF3C45414FDCD945514BCA /* Pods-SteppePayment_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A833E3026437CB2A9A37B61FFC50DCF4 /* Pods-SteppePayment_Example-dummy.m */; };
+		F5C92DC8E274C4FC541267A97575BC05 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C47A661FE0A8F303BF5B474AC486D81 /* ParameterEncoding.swift */; };
+		F93AEAF3659818E2308E0E5C70B66423 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267A6C411072776BA1A98DFADD258648 /* DispatchQueue+Alamofire.swift */; };
+		F98C449D2960CDD6121F83E3177AEF24 /* OptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4F4CF7F7CE47EAE36C383A82CC10 /* OptionViewModel.swift */; };
+		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E72F6F32639217E2CC58006048C926 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C770F450C0B9C6906C32DB4902E113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		6C670519C780BF940CD3E2E5EDD096A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4655AD63806FE2729C8C83369BD7E880;
+			remoteInfo = SteppePayment;
+		};
+		B66D3F0A87622AAAE45B106CF1BD2F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 404A7B29525F32D069331C674342099E;
+			remoteInfo = "Pods-SteppePayment_Example";
+		};
+		DFED9579E4D853BBE53C6FAEF22CD741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		FE2144BF9F42953D0DB194EA5983CFE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E72F6F32639217E2CC58006048C926 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		07D92C3A0A4AE503C211AD2C31C33285 /* BaseCollectionVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseCollectionVC.swift; sourceTree = "<group>"; };
+		0BB7915B3653B3AE64AB3F4318D84187 /* Pods-SteppePayment_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SteppePayment_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FFD08F9197AC321C50F02D9F9220590 /* Pods-SteppePayment_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteppePayment_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		12F657F3A0ED8FC5E64F171962718F2A /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		1C008FD0B7F05CF1484DA7929770F47F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		1C3AE13FA62095A9E20F675E13236F00 /* OptionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OptionCell.swift; sourceTree = "<group>"; };
+		1C47A661FE0A8F303BF5B474AC486D81 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1E63F0F4D1D2C9261C9F6B39972DBAE5 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		21FA3CA2A69C78B6F69F14C127E3BF27 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		267A6C411072776BA1A98DFADD258648 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		28D467A939CCDB9CB6CBDB65B3530212 /* Pods-SteppePayment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteppePayment_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A8900AF69988C3544D0ABBB00B02186 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		356F43A62E9E21D0519DBB4A4D17A3CD /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		367C0FFE1A7E2FBC399BB2ED7CB716D8 /* SteppePayment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SteppePayment.modulemap; sourceTree = "<group>"; };
+		37C9B31A2D9DA8BC137FF9A4F5D48F8C /* SteppePayment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SteppePayment-Info.plist"; sourceTree = "<group>"; };
+		39BF031862969CB64FA812A8FB99A454 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		3D8234607744524367E5FC616A4B4D87 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		3F6737B46825FEBB89BA65E449989B69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		41BB079B44FB7CE594EB9573D5EEF22F /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		41DB2FFF7285549066B395B8F6AC5843 /* BaseResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		43DF8CD0EE1759A5FB6092FB9C3CA8E4 /* Pods-SteppePayment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteppePayment_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		46884472AC7AC6ABD6F3CABB65DF3E57 /* OptionListResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OptionListResponse.swift; sourceTree = "<group>"; };
+		48E26A37701246B9BA73CFE20FD041E3 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		52BEF0E85890623F3F94D85674AFB993 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		55064E1F45841D1DDA58F81345A69EFE /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		57F9AE0995FF650A5B04532C3A01C497 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		591070C0C84C435AFFAA660A9C187FEE /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		5C23F68E19D6EC77382781A7B0576069 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCA81B4344CC640884482A8D1C4E3A0 /* OptionVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OptionVC.swift; sourceTree = "<group>"; };
+		603B8E2C2DD39BC0FBBBE1AA5863D73E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		63F1AF3E8CEE53833DB11C3C63450898 /* Pods-SteppePayment_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteppePayment_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6469F19B79E3371188A0133D4FD1B153 /* Pods-SteppePayment_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SteppePayment_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		68525B1FCBF78B7A05770B1AB022A2B7 /* SteppePayment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SteppePayment-dummy.m"; sourceTree = "<group>"; };
+		6A4C4C99C36E7A079C218C2DE88D95B1 /* Pods-SteppePayment_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SteppePayment_Example-Info.plist"; sourceTree = "<group>"; };
+		6B701CE0D392603F04CD4B922165E88D /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		6C0A3C2FC3FB03C3142A701EC5711C0A /* BaseViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		6E565C2E9A1DDE56421D3F466E9E0D26 /* SteppePayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteppePayment.release.xcconfig; sourceTree = "<group>"; };
+		6F2B6273D4EBE86ED3146AB648AF973D /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		6F6D0209F890D4746D26C8126F21C41D /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		74D5A77C7BCF6B71EF491EE635B1B44C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7B5194900AEC9AAC779217A3B4659034 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7BCB5CAC9A619EACE16610D45FF219D0 /* Pods-SteppePayment_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SteppePayment_Tests"; path = Pods_SteppePayment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		812F5A50E887FD34A8F903A3870F1C61 /* Pods-SteppePayment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteppePayment_Example.release.xcconfig"; sourceTree = "<group>"; };
+		82122481227390FD12B0AA66216CAB1D /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		8830CCC2CD0B5AAA1C4CE92FB7E1CCC2 /* SteppePayment.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SteppePayment.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B21A62280B7A47B3219155F67FF3BEF /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		8F7F734CCE9CEB888034672F0E745803 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		8FA13E312ABB665B1A11066F1E531CC1 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		901A799407E5275514335A33CBF5A019 /* Pods-SteppePayment_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SteppePayment_Example"; path = Pods_SteppePayment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90551C01044710F4C5751E551324D6CC /* OptionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OptionCell.xib; sourceTree = "<group>"; };
+		94074BB97F0711DB3FAC7988CB23202D /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		961626ECC44B3E6F754127857FE02CDB /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		9966390F7D1DAFDAE4D9FCCD7BC09D0C /* Pods-SteppePayment_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SteppePayment_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A1F4F4CF7F7CE47EAE36C383A82CC10 /* OptionViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OptionViewModel.swift; sourceTree = "<group>"; };
+		9B00D371A6F7A55FCD9D786F4F1B4992 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E8733DE12E0CE963385E9F38CC73F82 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		A833E3026437CB2A9A37B61FFC50DCF4 /* Pods-SteppePayment_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SteppePayment_Example-dummy.m"; sourceTree = "<group>"; };
+		B0F60D38D4C4D6ECC1BB91375F1A8D5F /* SteppePayment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteppePayment-umbrella.h"; sourceTree = "<group>"; };
+		B18A269D6B771743C281AC4A85C3F4FC /* Pods-SteppePayment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteppePayment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A1851F7E635BCB5438FE55EA19EB3F /* Pods-SteppePayment_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SteppePayment_Tests-Info.plist"; sourceTree = "<group>"; };
+		B6C5566449CA8177F6002FF7AD201A5C /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		BD40E957EA07387746C057777697C074 /* ConnectionFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectionFactory.swift; sourceTree = "<group>"; };
+		BDA91009C9F80F7FA928E40FBAE4AC7A /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		C07B75427A82A1CBBBA4D010A6FD3F95 /* Pods-SteppePayment_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SteppePayment_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C8FF62E867F46B583071903057096236 /* SteppePayment */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SteppePayment; path = SteppePayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE5FC681BC82D033A4B037C849B952B /* SteppePayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteppePayment.debug.xcconfig; sourceTree = "<group>"; };
+		D0F401529CDA9F1B48670C228A499E38 /* Pods-SteppePayment_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SteppePayment_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3BADA2561CA8706D68A81F6121ED8E1 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		D3ECE94D3F18685DFE85B7C816A06046 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		DC55AE56ED7C9B849EBA433BA769537B /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		DCAC2B0AE7180CF8E4A2203145BFF9D1 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		DF21E1B9FCB376DDAA1037C66F95DBB2 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		DF3074CF8BCC41184A0D93B24A9DE1C9 /* SteppePayment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteppePayment-prefix.pch"; sourceTree = "<group>"; };
+		E237D8C73A18679BC56E94D8B8A11812 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E6B24CAE615B58BD31E6A5D9628AB2FC /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		E6FF0995C0820B2A4EB05994621C0A67 /* Pods-SteppePayment_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SteppePayment_Example.modulemap"; sourceTree = "<group>"; };
+		EB61B32ED74B1235ADE05B5866729F09 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		EBAC58B518707F93678273618609AF36 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		F0A7E233E1B70049E6B59487D5D78D2F /* ConnectionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		F3168277A9954DD3A4211382F128CFFA /* Pods-SteppePayment_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SteppePayment_Tests-dummy.m"; sourceTree = "<group>"; };
+		F72680CC5FE5846F89190243179932BB /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		F9D61B86ACE5C978F3907E48EACD7B6E /* Pods-SteppePayment_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SteppePayment_Example-umbrella.h"; sourceTree = "<group>"; };
+		FB9EAD181B6C11265B9BE377FDC4FE77 /* Pods-SteppePayment_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SteppePayment_Tests.modulemap"; sourceTree = "<group>"; };
+		FC3B82C002A48BEF09E9B39B1B4F8C3E /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		FC8B64C98053EAD427DE397A4FA8A0FC /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		FD04415675B7BED58BA65B0C53626719 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B26543257BDB2B18EDE3C89FC49C12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D025203B333B07E10427C1AC76D438A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DDF7C2C610DA470BB72E009CD859E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358669B23FAFAAE20AD1F5E6C3408ED2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDEBC1279186C4DE344C5D2CCE81B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0464BDCD6CE52FE613303A5558DE30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A4DC39CD6230429BF8B3C6A9F077DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497F3D5D6E6805D19832CA8997EEF40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
+				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
+				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
+				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EF8B2D7E9BB9D74014C0D87B19F3DB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1C3AE13FA62095A9E20F675E13236F00 /* OptionCell.swift */,
+				90551C01044710F4C5751E551324D6CC /* OptionCell.xib */,
+			);
+			name = Cell;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		23C8544252E3226C9816670B4B84C515 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C5566449CA8177F6002FF7AD201A5C /* Alamofire.modulemap */,
+				E237D8C73A18679BC56E94D8B8A11812 /* Alamofire-dummy.m */,
+				DF21E1B9FCB376DDAA1037C66F95DBB2 /* Alamofire-Info.plist */,
+				8FA13E312ABB665B1A11066F1E531CC1 /* Alamofire-prefix.pch */,
+				6B701CE0D392603F04CD4B922165E88D /* Alamofire-umbrella.h */,
+				8F7F734CCE9CEB888034672F0E745803 /* Alamofire.debug.xcconfig */,
+				94074BB97F0711DB3FAC7988CB23202D /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		2618FFBCF3FB9DB8E55A3C1D8C0CD1AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA47F1F1ECEBA558D0D5DD90D431D2DD /* Alamofire */,
+				7BF6F7BD72B0F65103DF7C793B73C8F1 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B15873906FAEAA5106666F4AE860E67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				901A799407E5275514335A33CBF5A019 /* Pods-SteppePayment_Example */,
+				7BCB5CAC9A619EACE16610D45FF219D0 /* Pods-SteppePayment_Tests */,
+				C8FF62E867F46B583071903057096236 /* SteppePayment */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3088507D3870C60324314F05A2C87365 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				05E72F6F32639217E2CC58006048C926 /* FBSnapshotTestCase.h */,
+				21FA3CA2A69C78B6F69F14C127E3BF27 /* FBSnapshotTestCase.m */,
+				356F43A62E9E21D0519DBB4A4D17A3CD /* FBSnapshotTestCasePlatform.h */,
+				12F657F3A0ED8FC5E64F171962718F2A /* FBSnapshotTestCasePlatform.m */,
+				39BF031862969CB64FA812A8FB99A454 /* FBSnapshotTestController.h */,
+				7B5194900AEC9AAC779217A3B4659034 /* FBSnapshotTestController.m */,
+				603B8E2C2DD39BC0FBBBE1AA5863D73E /* UIApplication+StrictKeyWindow.h */,
+				E6B24CAE615B58BD31E6A5D9628AB2FC /* UIApplication+StrictKeyWindow.m */,
+				F72680CC5FE5846F89190243179932BB /* UIImage+Compare.h */,
+				48E26A37701246B9BA73CFE20FD041E3 /* UIImage+Compare.m */,
+				EBAC58B518707F93678273618609AF36 /* UIImage+Diff.h */,
+				EB61B32ED74B1235ADE05B5866729F09 /* UIImage+Diff.m */,
+				52BEF0E85890623F3F94D85674AFB993 /* UIImage+Snapshot.h */,
+				5C23F68E19D6EC77382781A7B0576069 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3239569A71F350A518C5D8C03A59D143 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4032632A81D8996FFFD614B7D99C6373 /* Pods-SteppePayment_Example */,
+				FD38B353A7585BD80C3A00647EED2818 /* Pods-SteppePayment_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3452A024AB29B73A51386C91046A9A47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				367C0FFE1A7E2FBC399BB2ED7CB716D8 /* SteppePayment.modulemap */,
+				68525B1FCBF78B7A05770B1AB022A2B7 /* SteppePayment-dummy.m */,
+				37C9B31A2D9DA8BC137FF9A4F5D48F8C /* SteppePayment-Info.plist */,
+				DF3074CF8BCC41184A0D93B24A9DE1C9 /* SteppePayment-prefix.pch */,
+				B0F60D38D4C4D6ECC1BB91375F1A8D5F /* SteppePayment-umbrella.h */,
+				CDE5FC681BC82D033A4B037C849B952B /* SteppePayment.debug.xcconfig */,
+				6E565C2E9A1DDE56421D3F466E9E0D26 /* SteppePayment.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SteppePayment";
+			sourceTree = "<group>";
+		};
+		34DA0CC6699C6F876A67207F74EAA134 /* Option */ = {
+			isa = PBXGroup;
+			children = (
+				04EF8B2D7E9BB9D74014C0D87B19F3DB /* Cell */,
+				4F9D968E05761E623F2101B1DB96BBFD /* VC */,
+				882F90D225F3025F7097B5CDEB437E62 /* ViewModel */,
+			);
+			name = Option;
+			path = SteppePayment/Classes/Option;
+			sourceTree = "<group>";
+		};
+		3589D20C833EE6F5F4A23070CFDCEEF4 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				9B00D371A6F7A55FCD9D786F4F1B4992 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		37FA8D7D41EB05FEBA1AF35630AC4161 /* SteppePayment */ = {
+			isa = PBXGroup;
+			children = (
+				856AEE5A484A4A0E0BD5BC41E77546B4 /* Base */,
+				5E41F544F1CF4CE945F0A0E65698AEB5 /* Network */,
+				34DA0CC6699C6F876A67207F74EAA134 /* Option */,
+				A8E0EDB77817FB6314026DDACC2772E9 /* Pod */,
+				3452A024AB29B73A51386C91046A9A47 /* Support Files */,
+			);
+			name = SteppePayment;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4032632A81D8996FFFD614B7D99C6373 /* Pods-SteppePayment_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E6FF0995C0820B2A4EB05994621C0A67 /* Pods-SteppePayment_Example.modulemap */,
+				9966390F7D1DAFDAE4D9FCCD7BC09D0C /* Pods-SteppePayment_Example-acknowledgements.markdown */,
+				D0F401529CDA9F1B48670C228A499E38 /* Pods-SteppePayment_Example-acknowledgements.plist */,
+				A833E3026437CB2A9A37B61FFC50DCF4 /* Pods-SteppePayment_Example-dummy.m */,
+				63F1AF3E8CEE53833DB11C3C63450898 /* Pods-SteppePayment_Example-frameworks.sh */,
+				6A4C4C99C36E7A079C218C2DE88D95B1 /* Pods-SteppePayment_Example-Info.plist */,
+				F9D61B86ACE5C978F3907E48EACD7B6E /* Pods-SteppePayment_Example-umbrella.h */,
+				43DF8CD0EE1759A5FB6092FB9C3CA8E4 /* Pods-SteppePayment_Example.debug.xcconfig */,
+				812F5A50E887FD34A8F903A3870F1C61 /* Pods-SteppePayment_Example.release.xcconfig */,
+			);
+			name = "Pods-SteppePayment_Example";
+			path = "Target Support Files/Pods-SteppePayment_Example";
+			sourceTree = "<group>";
+		};
+		4F9D968E05761E623F2101B1DB96BBFD /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				5DCA81B4344CC640884482A8D1C4E3A0 /* OptionVC.swift */,
+			);
+			name = VC;
+			path = VC;
+			sourceTree = "<group>";
+		};
+		5E41F544F1CF4CE945F0A0E65698AEB5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BC286945279EBEAE3D487EBF2C7B5DBE /* Base */,
+				E36740E102180281258098FEBB07AA27 /* Option */,
+			);
+			name = Network;
+			path = SteppePayment/Classes/Network;
+			sourceTree = "<group>";
+		};
+		7BF6F7BD72B0F65103DF7C793B73C8F1 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				3088507D3870C60324314F05A2C87365 /* Core */,
+				A8CF5EEAE8368EA84A99D4B7AF2F75DE /* Support Files */,
+				3589D20C833EE6F5F4A23070CFDCEEF4 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		856AEE5A484A4A0E0BD5BC41E77546B4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				07D92C3A0A4AE503C211AD2C31C33285 /* BaseCollectionVC.swift */,
+				6C0A3C2FC3FB03C3142A701EC5711C0A /* BaseViewModel.swift */,
+			);
+			name = Base;
+			path = SteppePayment/Classes/Base;
+			sourceTree = "<group>";
+		};
+		882F90D225F3025F7097B5CDEB437E62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A1F4F4CF7F7CE47EAE36C383A82CC10 /* OptionViewModel.swift */,
+			);
+			name = ViewModel;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8CF5EEAE8368EA84A99D4B7AF2F75DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B21A62280B7A47B3219155F67FF3BEF /* FBSnapshotTestCase.modulemap */,
+				DCAC2B0AE7180CF8E4A2203145BFF9D1 /* FBSnapshotTestCase-dummy.m */,
+				82122481227390FD12B0AA66216CAB1D /* FBSnapshotTestCase-Info.plist */,
+				1E63F0F4D1D2C9261C9F6B39972DBAE5 /* FBSnapshotTestCase-prefix.pch */,
+				591070C0C84C435AFFAA660A9C187FEE /* FBSnapshotTestCase-umbrella.h */,
+				6F2B6273D4EBE86ED3146AB648AF973D /* FBSnapshotTestCase.debug.xcconfig */,
+				DC55AE56ED7C9B849EBA433BA769537B /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		A8E0EDB77817FB6314026DDACC2772E9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				74D5A77C7BCF6B71EF491EE635B1B44C /* LICENSE */,
+				3F6737B46825FEBB89BA65E449989B69 /* README.md */,
+				8830CCC2CD0B5AAA1C4CE92FB7E1CCC2 /* SteppePayment.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC286945279EBEAE3D487EBF2C7B5DBE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				41DB2FFF7285549066B395B8F6AC5843 /* BaseResponse.swift */,
+				BD40E957EA07387746C057777697C074 /* ConnectionFactory.swift */,
+				F0A7E233E1B70049E6B59487D5D78D2F /* ConnectionManager.swift */,
+			);
+			name = Base;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C5DA74ADD80D5EF2E9D8680E42CA671C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37FA8D7D41EB05FEBA1AF35630AC4161 /* SteppePayment */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C5DA74ADD80D5EF2E9D8680E42CA671C /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				2618FFBCF3FB9DB8E55A3C1D8C0CD1AB /* Pods */,
+				2B15873906FAEAA5106666F4AE860E67 /* Products */,
+				3239569A71F350A518C5D8C03A59D143 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E36740E102180281258098FEBB07AA27 /* Option */ = {
+			isa = PBXGroup;
+			children = (
+				46884472AC7AC6ABD6F3CABB65DF3E57 /* OptionListResponse.swift */,
+			);
+			name = Option;
+			path = Option;
+			sourceTree = "<group>";
+		};
+		EA47F1F1ECEBA558D0D5DD90D431D2DD /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				55064E1F45841D1DDA58F81345A69EFE /* AFError.swift */,
+				2A8900AF69988C3544D0ABBB00B02186 /* Alamofire.swift */,
+				267A6C411072776BA1A98DFADD258648 /* DispatchQueue+Alamofire.swift */,
+				BDA91009C9F80F7FA928E40FBAE4AC7A /* MultipartFormData.swift */,
+				1C008FD0B7F05CF1484DA7929770F47F /* NetworkReachabilityManager.swift */,
+				D3ECE94D3F18685DFE85B7C816A06046 /* Notifications.swift */,
+				1C47A661FE0A8F303BF5B474AC486D81 /* ParameterEncoding.swift */,
+				41BB079B44FB7CE594EB9573D5EEF22F /* Request.swift */,
+				9E8733DE12E0CE963385E9F38CC73F82 /* Response.swift */,
+				FD04415675B7BED58BA65B0C53626719 /* ResponseSerialization.swift */,
+				FC8B64C98053EAD427DE397A4FA8A0FC /* Result.swift */,
+				961626ECC44B3E6F754127857FE02CDB /* ServerTrustPolicy.swift */,
+				FC3B82C002A48BEF09E9B39B1B4F8C3E /* SessionDelegate.swift */,
+				D3BADA2561CA8706D68A81F6121ED8E1 /* SessionManager.swift */,
+				57F9AE0995FF650A5B04532C3A01C497 /* TaskDelegate.swift */,
+				6F6D0209F890D4746D26C8126F21C41D /* Timeline.swift */,
+				3D8234607744524367E5FC616A4B4D87 /* Validation.swift */,
+				23C8544252E3226C9816670B4B84C515 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD38B353A7585BD80C3A00647EED2818 /* Pods-SteppePayment_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB9EAD181B6C11265B9BE377FDC4FE77 /* Pods-SteppePayment_Tests.modulemap */,
+				0BB7915B3653B3AE64AB3F4318D84187 /* Pods-SteppePayment_Tests-acknowledgements.markdown */,
+				6469F19B79E3371188A0133D4FD1B153 /* Pods-SteppePayment_Tests-acknowledgements.plist */,
+				F3168277A9954DD3A4211382F128CFFA /* Pods-SteppePayment_Tests-dummy.m */,
+				0FFD08F9197AC321C50F02D9F9220590 /* Pods-SteppePayment_Tests-frameworks.sh */,
+				B5A1851F7E635BCB5438FE55EA19EB3F /* Pods-SteppePayment_Tests-Info.plist */,
+				C07B75427A82A1CBBBA4D010A6FD3F95 /* Pods-SteppePayment_Tests-umbrella.h */,
+				B18A269D6B771743C281AC4A85C3F4FC /* Pods-SteppePayment_Tests.debug.xcconfig */,
+				28D467A939CCDB9CB6CBDB65B3530212 /* Pods-SteppePayment_Tests.release.xcconfig */,
+			);
+			name = "Pods-SteppePayment_Tests";
+			path = "Target Support Files/Pods-SteppePayment_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DABE40D8284946A924A02B546257DE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146510540C8DAF109CC4BCCB0CA74A9 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF175063F285E77512F332B5CA21543 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECE2F54A849F5149511F0B8F788B776 /* Pods-SteppePayment_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
+				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
+				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
+				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
+				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
+				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
+				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F67B6882860C4C62EB4EF0C1FB7AA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBDCD5F4CC3EC09659AFFBC8ACD819E /* Pods-SteppePayment_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F892CA0F173649A9034F932632DFDABC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E6DD9E0EF79BA54B058B29B382D402 /* SteppePayment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		404A7B29525F32D069331C674342099E /* Pods-SteppePayment_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 039089400671AB8F0C6D5DB162C7ECEA /* Build configuration list for PBXNativeTarget "Pods-SteppePayment_Example" */;
+			buildPhases = (
+				E9F67B6882860C4C62EB4EF0C1FB7AA5 /* Headers */,
+				9F9D02E10EA25EECD4472526C23D0DDE /* Sources */,
+				28A4DC39CD6230429BF8B3C6A9F077DD /* Frameworks */,
+				D59DEA278135426BAD36E091FFFCC4D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A6E78BD604FAFB8603C658162D7429 /* PBXTargetDependency */,
+				F634934A7E518BDC9C8B9278694DB1DE /* PBXTargetDependency */,
+			);
+			name = "Pods-SteppePayment_Example";
+			productName = Pods_SteppePayment_Example;
+			productReference = 901A799407E5275514335A33CBF5A019 /* Pods-SteppePayment_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		4655AD63806FE2729C8C83369BD7E880 /* SteppePayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E99FF0D4B80FE1B8974B1E80D771EC /* Build configuration list for PBXNativeTarget "SteppePayment" */;
+			buildPhases = (
+				F892CA0F173649A9034F932632DFDABC /* Headers */,
+				E14EC5319A1DEEB126058E8686B7D77F /* Sources */,
+				0DDF7C2C610DA470BB72E009CD859E24 /* Frameworks */,
+				7CB17915A162919DD7F61528EA10F322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E831C236708CD07FED5F7AE7C22980F /* PBXTargetDependency */,
+			);
+			name = SteppePayment;
+			productName = SteppePayment;
+			productReference = C8FF62E867F46B583071903057096236 /* SteppePayment */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
+				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
+				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
+				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4C8FED03D7F4FFDEBAABAC5C6E0680B /* Pods-SteppePayment_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CCC6496D2924C1973FED93E5D76518 /* Build configuration list for PBXNativeTarget "Pods-SteppePayment_Tests" */;
+			buildPhases = (
+				5EF175063F285E77512F332B5CA21543 /* Headers */,
+				8CA521686E5DBCED1517A82BF2A363B3 /* Sources */,
+				0B26543257BDB2B18EDE3C89FC49C12A /* Frameworks */,
+				C1885E4506DF939747096AFBEC7D019C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C3813D1B56C487811B100109A47099E /* PBXTargetDependency */,
+				9E4666A5B422EC1705061754171DE796 /* PBXTargetDependency */,
+			);
+			name = "Pods-SteppePayment_Tests";
+			productName = Pods_SteppePayment_Tests;
+			productReference = 7BCB5CAC9A619EACE16610D45FF219D0 /* Pods-SteppePayment_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887CAE7F79D14F7AF2714DC8BABA9E38 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				5DABE40D8284946A924A02B546257DE2 /* Headers */,
+				91DE88C3249026C72068864CF85B8193 /* Sources */,
+				1FDEBC1279186C4DE344C5D2CCE81B3D /* Frameworks */,
+				C2B76647EA315A3658A600739CC6D453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2B15873906FAEAA5106666F4AE860E67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				404A7B29525F32D069331C674342099E /* Pods-SteppePayment_Example */,
+				C4C8FED03D7F4FFDEBAABAC5C6E0680B /* Pods-SteppePayment_Tests */,
+				4655AD63806FE2729C8C83369BD7E880 /* SteppePayment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB17915A162919DD7F61528EA10F322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1885E4506DF939747096AFBEC7D019C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B76647EA315A3658A600739CC6D453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59DEA278135426BAD36E091FFFCC4D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CA521686E5DBCED1517A82BF2A363B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05996A5354CE5E1C53ECA7B7530E12A3 /* Pods-SteppePayment_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DE88C3249026C72068864CF85B8193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E42B43904F2F22CA3A8BBD0155D9A2 /* AFError.swift in Sources */,
+				70EA6F068498CEC1B273D6BB1E74EB4E /* Alamofire.swift in Sources */,
+				C27C72B2D755F3A7B2D97089CA75146F /* Alamofire-dummy.m in Sources */,
+				F93AEAF3659818E2308E0E5C70B66423 /* DispatchQueue+Alamofire.swift in Sources */,
+				6DF154F51210D4C446AA021F2DBA34A4 /* MultipartFormData.swift in Sources */,
+				5CECD168465CF59B489253695D3FB51F /* NetworkReachabilityManager.swift in Sources */,
+				537D7452E6C8C82D9C1908EA29706E35 /* Notifications.swift in Sources */,
+				F5C92DC8E274C4FC541267A97575BC05 /* ParameterEncoding.swift in Sources */,
+				D593E5BEB4221FF272DBF69E51945319 /* Request.swift in Sources */,
+				9BCBBFE03318F5DD172F9E1F3100F67B /* Response.swift in Sources */,
+				43C3C17BFDFD71F45C5A7AFB0C0BEF45 /* ResponseSerialization.swift in Sources */,
+				D46CB5AF7BE345C5D27ABF9DCF692881 /* Result.swift in Sources */,
+				3DE8AA12C52787A0BA570717BB27AAB0 /* ServerTrustPolicy.swift in Sources */,
+				85379CCF081FC9C36F082E71D2DF4D2F /* SessionDelegate.swift in Sources */,
+				8023EECE8437F0311A065A9C2F420E2E /* SessionManager.swift in Sources */,
+				119B37D7E7D3A59C6685FC0EFEE881CE /* TaskDelegate.swift in Sources */,
+				2119BBBDD76C9B182007C9E8D3BD8DDA /* Timeline.swift in Sources */,
+				4C301CCA81AAFB4453B6B827F846E0AC /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9D02E10EA25EECD4472526C23D0DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D912E19219BF3C45414FDCD945514BCA /* Pods-SteppePayment_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14EC5319A1DEEB126058E8686B7D77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56DF99F0AD9505020B893770B07B065 /* BaseCollectionVC.swift in Sources */,
+				4BC10BB7E46B5587F6E625E1BDEF6F14 /* BaseResponse.swift in Sources */,
+				1A11B675351F78D381162637A2136E6E /* BaseViewModel.swift in Sources */,
+				42A2BDAC8404843534AEFAF223E53F00 /* ConnectionFactory.swift in Sources */,
+				3BFA3BC84D4DBDE54DBF6680FEA9D4C6 /* ConnectionManager.swift in Sources */,
+				A470A331A06E39427AC4CAF39EB062BE /* OptionCell.swift in Sources */,
+				101C2E37499C8EAF36FDDBDF637DD228 /* OptionCell.xib in Sources */,
+				A21F602FF1746FB516C87A271C503642 /* OptionListResponse.swift in Sources */,
+				253D0E3B3A48ED9FB8832A08C4E30536 /* OptionVC.swift in Sources */,
+				F98C449D2960CDD6121F83E3177AEF24 /* OptionViewModel.swift in Sources */,
+				24CC280E501967AA12C945A11E8BA2CF /* SteppePayment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
+				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
+				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
+				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
+				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
+				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
+				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
+				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
+				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E831C236708CD07FED5F7AE7C22980F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 36C770F450C0B9C6906C32DB4902E113 /* PBXContainerItemProxy */;
+		};
+		33A6E78BD604FAFB8603C658162D7429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = FE2144BF9F42953D0DB194EA5983CFE6 /* PBXContainerItemProxy */;
+		};
+		6C3813D1B56C487811B100109A47099E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = DFED9579E4D853BBE53C6FAEF22CD741 /* PBXContainerItemProxy */;
+		};
+		9E4666A5B422EC1705061754171DE796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SteppePayment_Example";
+			target = 404A7B29525F32D069331C674342099E /* Pods-SteppePayment_Example */;
+			targetProxy = B66D3F0A87622AAAE45B106CF1BD2F43 /* PBXContainerItemProxy */;
+		};
+		F634934A7E518BDC9C8B9278694DB1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SteppePayment;
+			target = 4655AD63806FE2729C8C83369BD7E880 /* SteppePayment */;
+			targetProxy = 6C670519C780BF940CD3E2E5EDD096A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC55AE56ED7C9B849EBA433BA769537B /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34C0DAC32720E4A5013D750EB7F88DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812F5A50E887FD34A8F903A3870F1C61 /* Pods-SteppePayment_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteppePayment_Example/Pods-SteppePayment_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteppePayment_Example/Pods-SteppePayment_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		511BC55B407144DF0A7AFFB299A9E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D467A939CCDB9CB6CBDB65B3530212 /* Pods-SteppePayment_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteppePayment_Tests/Pods-SteppePayment_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteppePayment_Tests/Pods-SteppePayment_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68B1AE02C35B3BF9B0A358B7D7F26055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94074BB97F0711DB3FAC7988CB23202D /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D683ED39567C630291DE28AD063B2B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE5FC681BC82D033A4B037C849B952B /* SteppePayment.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SteppePayment/SteppePayment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SteppePayment/SteppePayment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SteppePayment/SteppePayment.modulemap";
+				PRODUCT_MODULE_NAME = SteppePayment;
+				PRODUCT_NAME = SteppePayment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FA894C1A779976A53BF73FED4177830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DF8CD0EE1759A5FB6092FB9C3CA8E4 /* Pods-SteppePayment_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteppePayment_Example/Pods-SteppePayment_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteppePayment_Example/Pods-SteppePayment_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2B6273D4EBE86ED3146AB648AF973D /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA22C334E2940B21EB576035F44AD294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7F734CCE9CEB888034672F0E745803 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E188032EDB4DC5640220EBEE003ECF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E565C2E9A1DDE56421D3F466E9E0D26 /* SteppePayment.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SteppePayment/SteppePayment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SteppePayment/SteppePayment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SteppePayment/SteppePayment.modulemap";
+				PRODUCT_MODULE_NAME = SteppePayment;
+				PRODUCT_NAME = SteppePayment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E74BE75EF2F05A7521AF919CE1E57453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18A269D6B771743C281AC4A85C3F4FC /* Pods-SteppePayment_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteppePayment_Tests/Pods-SteppePayment_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteppePayment_Tests/Pods-SteppePayment_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		039089400671AB8F0C6D5DB162C7ECEA /* Build configuration list for PBXNativeTarget "Pods-SteppePayment_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA894C1A779976A53BF73FED4177830 /* Debug */,
+				34C0DAC32720E4A5013D750EB7F88DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
+				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CCC6496D2924C1973FED93E5D76518 /* Build configuration list for PBXNativeTarget "Pods-SteppePayment_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74BE75EF2F05A7521AF919CE1E57453 /* Debug */,
+				511BC55B407144DF0A7AFFB299A9E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887CAE7F79D14F7AF2714DC8BABA9E38 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA22C334E2940B21EB576035F44AD294 /* Debug */,
+				68B1AE02C35B3BF9B0A358B7D7F26055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E99FF0D4B80FE1B8974B1E80D771EC /* Build configuration list for PBXNativeTarget "SteppePayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D683ED39567C630291DE28AD063B2B9 /* Debug */,
+				E188032EDB4DC5640220EBEE003ECF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
